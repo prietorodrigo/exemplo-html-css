@@ -1,0 +1,25 @@
+body{
+    font-family: Arial;
+    font-size: 10px;
+    color: pink;
+    background: url("penarol.png") no-repeat;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+p{
+    background-color: #000;
+    font-family: "Times New Roman";
+}
+
+#diferente{
+    background-color: #00f;
+    border-top: 10px solid yellow;
+    border-right: 10px solid black;
+    border-bottom: 10px solid black;
+    border-left: 10px solid yellow;
+}
+
+.diferentes{
+    background-color: #f00;
+}

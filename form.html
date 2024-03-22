@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="estilo.css"/>
+    </head>
+    <body style="background-color: lightgreen;">
+        <img src="brasil.png" width="50" />
+        <p style="color: red; background-color: black; width: 300px;">Primeiro campeão gaúcho</p>
+        
+        <figure>
+            <img src="brasil.png" width="50" />
+            <figcaption>Primeiro campeão gaúcho</figcaption>
+        </figure>
+
+        <form method="GET" action="praondevou.html">
+            <div>
+                <label for="name">
+                    Nome:
+                </label>
+                <input type="text" name="nome" id="nome"/>
+            </div>
+            <div>
+                <label for="email">
+                    Email:
+                </label>
+                <input type="email" name="email" id="email"/>
+            </div>
+            <div>
+                <label for="descricao">
+                    Descreva-se:
+                </label>
+                <textarea placeholder="capriche" name="descricao" id="descricao"></textarea>
+            </div>
+            <div>
+                <label for="foto">
+                    Foto:
+                </label>
+                <input type="file" name="foto" id="foto"/>
+            </div>
+            <button type="submit">Enviar</button>
+        </form>
+    </body>
+</html>
+
